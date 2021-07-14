@@ -29,7 +29,7 @@ header{
     align-items: center;
     display: flex;    
     justify-content: space-around;
-    margin-top: 42px 124px 0 156px;
+    padding: 42px 124px 0 124px;
 }
 .nav-items{
     display: flex;
@@ -57,4 +57,27 @@ header{
 .banner img{
     width: 556px;
     height: 438px;
+}
+
+/* players section  */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:30px ;
+    grid-row-gap: 27px;
+    justify-content: space-between;
+    margin: 70px 200px;
+}
+.player{
+    /* width: 330px;
+    height: 474px;
+    pad */
+    padding: 15px;
+    box-shadow:0px 1px 6px 0px grey;
+}
+.player img{
+    width: 100%;
+}
+.player-details{
+    color: #6C6C6C;
 }
