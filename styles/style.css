@@ -97,6 +97,50 @@ header{
     width: 567px;
     height: 427px;
 }
+/* shop section  */
+.shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop-bakground{
+    
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: -1;
+}
+
+.shop-title {
+    display: flex;
+    background-color: rgba(77, 83, 83, 0.616);
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    z-index: +1;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+    transition: color .2s;
+}
+.shop-title:hover {
+    background-color: rgba(77, 83, 83, 0.616);
+    color: tomato;
+}
+
+.shop-title a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(40, 170, 29);
+    padding: 2px 15px;
+    margin-bottom: 25px;
+    transition: backbackground-color .5s, color 1s ;
+}
+.shop-title a:hover{
+    background-color: rgb(38, 29, 170);
+    color: rgb(221, 25, 25);
+}
+
 /* footer section  */
 footer{
     /* width: 482px;
