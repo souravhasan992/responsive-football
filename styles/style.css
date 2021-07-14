@@ -15,6 +15,9 @@ body{
     text-decoration: none;
     column-gap: 8px;
 }
+p{
+    color: #6C6C6C;
+}
 
 /* header css  */
 header{
@@ -69,15 +72,28 @@ header{
     margin: 70px 200px;
 }
 .player{
-    /* width: 330px;
-    height: 474px;
-    pad */
+    /* width: 330px;*/
+    max-height: 474px;
     padding: 15px;
     box-shadow:0px 1px 6px 0px grey;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
 }
 .player img{
     width: 100%;
 }
-.player-details{
-    color: #6C6C6C;
+
+
+/* Highlights section  */
+.highlights{
+    display: flex;
+    justify-content: center;
+    margin: 160px;
+}
+.highlights-title{
+    font-size: 50px;
+}
+.highlights img{
+    width: 567px;
+    height: 427px;
 }
