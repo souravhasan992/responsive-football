@@ -150,6 +150,24 @@ header{
     color: rgb(221, 25, 25);
 }
 
+/* -------------
+Matchs section 
+-------------- */
+.match {
+    background-color: #EBE6DF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.matche h2{
+    font-size: 55px;
+    margin-bottom: 0;
+}
+.match-follow img{
+    border: 4px solid blue;
+}
 /* footer section  */
 footer{
     display: flex;
@@ -275,6 +293,7 @@ footer{
     justify-content: center;
     position: relative;
     z-index: -1;
+    max-width: 400px;
 }
 
 .shop-title {
@@ -305,6 +324,29 @@ footer{
 .shop-title a:hover{
     background-color: rgb(38, 29, 170);
     color: rgb(221, 25, 25);
+}
+/* -------------
+Matchs section 
+-------------- */
+.match {
+    background-color: #EBE6DF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.matche h2{
+    font-size: 55px;
+    margin-bottom: 0;
+}
+.match-follow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.match-follow img{
+    border: 4px solid blue;
 }
     
  }
