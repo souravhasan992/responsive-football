@@ -97,3 +97,27 @@ header{
     width: 567px;
     height: 427px;
 }
+/* footer section  */
+footer{
+    /* width: 482px;
+    height: 213px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+/* .logo{
+    width: 482px;
+    height: 213px;
+} */
+/* .logo img{
+    width: 40%;
+    
+} */
+.social-media ul{
+    list-style: none;
+    display: inline-flex;    
+    column-gap: 20px;
+    padding: 0 ;
+}
