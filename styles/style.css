@@ -13,7 +13,6 @@ body{
     background-color: #E02C6D;
     padding: 10px 24px;
     text-decoration: none;
-    column-gap: 8px;
 }
 p{
     color: #6C6C6C;
@@ -28,12 +27,11 @@ header{
 }
 /* navbar css  */
 .nav-bar{
-    width: 1160px;
     height: 44px;
     align-items: center;
     display: flex;    
     justify-content: space-around;
-    padding: 42px 124px 0 124px;
+    
 }
 .nav-items{
     display: flex;
@@ -199,32 +197,41 @@ footer{
  ------------------- */
  /* Mobile device */
 
- @media only screen and (max-width:688px){
+ @media only screen and (max-width:360px){
      /* Common style  */
     .button{
         color: white;
         background-color: #E02C6D;
         padding: 10px 24px;
-        text-decoration: none;
-        column-gap: 8px;
-        margin-bottom: 20px;
-        
+        text-decoration: none;        
+        margin-bottom: 20px;        
     }
     /* header section  */
+    /* header{
+        display: flex;
+        flex-direction: column;
+        background-color: #2D25A0;
+        justify-content: center;
+        
+    } */
     .nav-bar {
-        width: 480px;
-        height: 25px;
+        padding: 20px;
         align-items: center;
         display: flex;
-        justify-content: flex-start;
-        /* padding: 0px 0px 0px; */
         flex-direction: column;
+        justify-content: flex-start;
+        
+    }
+    .nav-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .banner {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
     }
     .banner-title{
         margin-bottom: 20px;
@@ -240,6 +247,10 @@ footer{
         height: 251px;
         margin-bottom: 6px;
         transition: transform .5s;
+    }
+    
+    .banner img:hover{
+        transform: rotate(30deg);
     }
     /* players section  */
 .players{
